@@ -6,7 +6,7 @@
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script>
     (function() {
-      emailjs.init("TU_PUBLIC_KEY"); // Reemplaza con tu Public Key
+      emailjs.init("J2MUDWB8lPtQXcvUo"); // Reemplaza con tu Public Key
     })();
   </script>
   <style>
@@ -31,7 +31,7 @@
     document.getElementById('sugerenciaForm').addEventListener('submit', function(e) {
       e.preventDefault();
 
-      emailjs.sendForm('TU_SERVICE_ID', 'TU_TEMPLATE_ID', this)
+      emailjs.sendForm('service_qu1e6pi', 'template_zjwz03p', this)
         .then(function() {
           alert('Sugerencia enviada correctamente');
           document.getElementById('sugerenciaForm').reset();
